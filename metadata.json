@@ -1,0 +1,6 @@
+{
+  "name": "Aulas de Informática - Victor Eduardo",
+  "description": "Aulas particulares de informática presenciais em Manaus, do básico à inteligência artificial, personalizadas pelo professor Victor Eduardo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
