@@ -31,7 +31,7 @@ export default function Methodology() {
   ];
 
   return (
-    <section id="metodologia" className="py-20 px-4 bg-deep-800 text-white relative">
+    <section id="metodologia" className="py-20 px-4 bg-gradient-to-b from-[#16164F] to-[#1C1147] text-white relative">
       {/* Background circle */}
       <div className="absolute top-1/2 right-10 w-[300px] h-[300px] bg-accent/5 rounded-full blur-[100px] pointer-events-none" />
 

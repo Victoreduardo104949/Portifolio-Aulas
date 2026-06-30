@@ -74,7 +74,7 @@ export default function ForWho() {
   };
 
   return (
-    <section id="publico" className="py-20 px-4 bg-deep-900 text-white relative">
+    <section id="publico" className="py-20 px-4 bg-gradient-to-b from-[#111C47] to-[#16164F] text-white relative">
       <div className="absolute top-1/2 left-0 w-[300px] h-[300px] bg-accent-dark/5 rounded-full blur-[90px] pointer-events-none" />
 
       <div className="w-full max-w-6xl mx-auto relative z-10">

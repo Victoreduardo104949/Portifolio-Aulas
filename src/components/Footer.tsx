@@ -5,7 +5,7 @@ export default function Footer() {
   const whatsappUrl = "https://wa.me/5592993730335?text=Ol%C3%A1%2C+professor+Victor%21+Gostaria+de+saber+mais+sobre+as+aulas+particulares+de+inform%C3%A1tica.";
 
   return (
-    <footer className="bg-deep-900 text-white border-t border-gray-800/80 pt-16 pb-28 px-4 relative z-20">
+    <footer className="bg-[#140626] text-white border-t border-purple-950/30 pt-16 pb-28 px-4 relative z-20">
       <div className="w-full max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8 mb-12">
           

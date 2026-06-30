@@ -49,7 +49,7 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="py-20 px-4 bg-deep-800 text-white relative">
+    <section id="faq" className="py-20 px-4 bg-gradient-to-b from-[#220B3B] to-[#140626] text-white relative">
       <div className="absolute top-1/2 left-10 w-[250px] h-[250px] bg-accent/5 rounded-full blur-[80px] pointer-events-none" />
 
       <div className="w-full max-w-3xl mx-auto relative z-10">

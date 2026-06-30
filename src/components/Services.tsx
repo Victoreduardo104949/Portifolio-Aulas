@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Monitor, FileText, Code, Cpu, Check, MessageSquare, LucideIcon } from "lucide-react";
+import { Monitor, FileText, Code, Cpu, Palette, Check, MessageSquare, LucideIcon } from "lucide-react";
 
 interface Course {
   id: string;
@@ -27,6 +27,14 @@ export default function Services() {
       benefit: "Crie documentos, planilhas e apresentações profissionais com facilidade.",
       items: ["Microsoft Word", "Planilhas no Excel", "Apresentações no PowerPoint", "Atalhos de produtividade", "Google Drive & Nuvem"],
       message: "Olá, Victor! Tenho interesse no curso do Pacote Office. Gostaria de saber mais."
+    },
+    {
+      id: "design",
+      title: "Design Gráfico",
+      icon: Palette,
+      benefit: "Crie artes incríveis, trate imagens e crie marcas com Photoshop e Illustrator.",
+      items: ["Fundamentos de Cores & Grid", "Edição & Tratamento no Photoshop", "Vetores & Ilustrações no Illustrator", "Postagens de alto impacto para Redes Sociais", "Exportação profissional para Impressão"],
+      message: "Olá, Victor! Tenho interesse no curso de Design (Photoshop e Illustrator). Gostaria de saber mais."
     },
     {
       id: "programacao",
@@ -70,6 +78,14 @@ export default function Services() {
       badgeText: "Mercado & Produtividade",
       cardBorderHover: "hover:border-indigo-accent/40"
     },
+    design: {
+      iconBg: "bg-emerald-accent/10 border-emerald-accent/20 text-emerald-accent",
+      badge: "bg-emerald-accent/10 text-emerald-accent border-emerald-accent/20",
+      checkIcon: "text-emerald-accent",
+      btn: "bg-emerald-accent/10 hover:bg-emerald-accent hover:text-deep-900 text-emerald-accent border-emerald-accent/30 hover:border-emerald-accent",
+      badgeText: "Visual & Arte 🎨",
+      cardBorderHover: "hover:border-emerald-accent/40"
+    },
     programacao: {
       iconBg: "bg-purple-accent/10 border-purple-accent/20 text-purple-accent",
       badge: "bg-purple-accent/10 text-purple-accent border-purple-accent/20",
@@ -89,7 +105,7 @@ export default function Services() {
   };
 
   return (
-    <section id="servicos" className="py-20 px-4 bg-deep-800 text-white relative">
+    <section id="servicos" className="py-20 px-4 bg-gradient-to-b from-[#0E1E38] to-[#111C47] text-white relative">
       <div className="w-full max-w-6xl mx-auto relative z-10">
         
         {/* Header */}
@@ -104,7 +120,7 @@ export default function Services() {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {courses.map((course, index) => {
             const IconComponent = course.icon;
             const theme = colorThemes[course.id] || colorThemes.basico;

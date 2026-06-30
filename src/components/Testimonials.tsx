@@ -14,29 +14,29 @@ export default function Testimonials() {
   const testimonials: Testimonial[] = [
     {
       id: "1",
-      name: "Dona Maria do Carmo, 68 anos",
-      role: "Aulas de Informática Básica / Aposentada",
-      text: "Eu tinha pavor de computador, achava que ia estragar só de tocar. Com a paciência e a didática do professor Victor, hoje eu já uso o Windows, navego na internet com segurança e leio meus e-mails. Ele explica tudo com muita calma!",
+      name: "Beatriz Souza, 26 anos",
+      role: "Aulas de Photoshop e Illustrator / Social Media",
+      text: "Eu trabalhava como assistente e me cobravam muito para criar os posts das redes sociais, mas eu só sabia usar o Canva e tudo ficava meio parecido com a concorrência. Quando comecei as aulas com o Victor, ele me ensinou do zero como dominar o Photoshop e Illustrator de forma prática. Hoje crio minhas próprias artes profissionais, aprendi sobre identidade visual de verdade e até consegui uma grana extra pegando freelas. O método dele é sensacional!",
       rating: 5
     },
     {
       id: "2",
       name: "Roberto Ramos, 34 anos",
       role: "Aulas de Excel Avançado / Analista Financeiro",
-      text: "Minha promoção no trabalho dependia de dominar planilhas e relatórios no Excel. O Victor montou uma trilha prática com as fórmulas e atalhos que eu uso no dia a dia. Consegui a vaga e continuo fazendo as aulas de atualização!",
+      text: "Eu já usava o Excel básico, mas no trabalho o bicho começou a pegar com relatórios bem complexos que eu demorava horas para entregar. Chamei o Victor e ele foi direto ao ponto, sem aquela enrolação de curso tradicional. Ele pegou as minhas próprias planilhas reais do dia a dia e me ensinou a automatizar tudo com PROCV, tabela dinâmica e fórmulas avançadas. A minha produtividade mudou da água para o vinho. O cara é fera demais!",
       rating: 5
     },
     {
       id: "3",
       name: "Ana Júlia Mendes, 21 anos",
       role: "Aulas de Programação & IA / Estudante",
-      text: "As aulas de lógica de programação e uso de ferramentas de Inteligência Artificial abriram a minha cabeça. O Victor tem um conhecimento técnico enorme, mas traduz de um jeito muito fácil de entender. Recomendo muito!",
+      text: "Comecei as aulas com o Victor porque estava completamente travada na faculdade e desesperada com lógica de programação. Ele desmistificou tudo de um jeito super leve. Além de me ajudar a passar nas matérias, as aulas dele sobre ChatGPT e ferramentas de IA me ajudaram demais a me destacar nas entregas do estágio. Vale cada centavo!",
       rating: 5
     }
   ];
 
   return (
-    <section id="depoimentos" className="py-20 px-4 bg-deep-900 text-white relative">
+    <section id="depoimentos" className="py-20 px-4 bg-gradient-to-b from-[#1C1147] to-[#220B3B] text-white relative">
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[400px] h-[400px] bg-accent-light/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="w-full max-w-6xl mx-auto relative z-10">
