@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { ArrowDown, MessageCircle } from "lucide-react";
+import avatarImg from "../assets/images/victor_eduardo_avatar_1782780773387.jpg";
 
 export default function Hero() {
   const whatsappUrl = "https://wa.me/5592993730335?text=Ol%C3%A1%2C+professor+Victor%21+Gostaria+de+saber+mais+sobre+as+aulas+particulares+de+inform%C3%A1tica.";
@@ -26,7 +27,7 @@ export default function Hero() {
             
             <div className="relative w-full h-full bg-deep-800 rounded-2xl overflow-hidden border-2 border-accent/30 p-1">
               <img 
-                src="/src/assets/images/victor_eduardo_avatar_1782780773387.jpg" 
+                src={avatarImg} 
                 alt="Victor Eduardo - Professor Particular de Informática" 
                 className="w-full h-full object-cover rounded-xl"
                 referrerPolicy="no-referrer"
